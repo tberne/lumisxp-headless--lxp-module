@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface-style version="7.0">
+  <id>402881DE7AE3E757017AE46787AD2C85</id>
+  <interface-id>lumis.service.singleblog.details</interface-id>
+  <name>Teste Headless-Detalhes de postagem</name>
+  <file-path>style/lumis/service/singleblog/details/teste-headless-detalhes-de-postagem.groovy</file-path>
+</interface-style>

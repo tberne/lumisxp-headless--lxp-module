@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service-instance version="7.0">
+  <id>402881DE7AAA5B27017AAA6546AA0C37</id>
+  <name>Teste Headless</name>
+  <description>Serviço que cria automaticamente uma área administrativa para instâncias de serviços.</description>
+  <service-id>lumis.service.autoadministration</service-id>
+  <rest-short-name>termopriv</rest-short-name>
+</service-instance>

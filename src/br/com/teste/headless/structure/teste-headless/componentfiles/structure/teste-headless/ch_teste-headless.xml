@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel version="7.0">
+  <id>402881DE7AAA5B27017AAA65309406B4</id>
+  <parent-id>00000000F00000000000000000000001</parent-id>
+  <name>Teste Headless</name>
+  <inherit-page-template>false</inherit-page-template>
+  <inherit-stylesheet>false</inherit-stylesheet>
+  <local-group-prefix>teste-headless</local-group-prefix>
+  <access-control-list>
+    <entries>
+      <entry principal-id="00000000C00000000000000000000001">
+        <allow-permissions>65792</allow-permissions>
+      </entry>
+      <entry principal-id="402881DE7AAA5B27017AAA654A3F0DA9">
+        <allow-permissions>622848</allow-permissions>
+      </entry>
+    </entries>
+  </access-control-list>
+  <property-bag>
+    <property name="lumis.portal.areatag">
+      <private>true</private>
+      <default-values/>
+    </property>
+  </property-bag>
+  <themes>
+    <theme>br.com.teste.headless.theme.teste-headless</theme>
+  </themes>
+  <groups>
+    <group alias="publishers">
+      <id>402881DE7AAA5B27017AAA654A3F0DA9</id>
+      <name>STR_PORTAL_PUBLISHERS_GROUP_NAME</name>
+    </group>
+  </groups>
+</channel>
