@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page version="7.0">
-  <id>402881DE7AE3CD47017AE3D6707E64D9</id>
-  <name>Lista</name>
+  <id>402881DE7AF2748D017AF33F0520474D</id>
+  <name>Últimos Posts</name>
   <hidden>true</hidden>
-  <position>100</position>
+  <position>1000</position>
   <layout-type>LAYOUT_FILE</layout-type>
   <layout-file>blank.html</layout-file>
-  <layout><![CDATA[<layout><holder id="main"><interface id="402881DE7AE3CD47017AE3D7408A6B70"/></holder></layout>]]></layout>
+  <layout><![CDATA[<layout>
+    <holder id="main">
+        <interface id="402881DE7AF2748D017AF33F055C4755"></interface>
+    </holder>
+</layout>]]></layout>
   <interface-instances>
     <interface-instance>
-      <id>402881DE7AE3CD47017AE3D7408A6B70</id>
+      <id>402881DE7AF2748D017AF33F055C4755</id>
       <service-instance-id>402881DE7AE3CD47017AE3D41FA057DD</service-instance-id>
       <interface-id>lumis.service.singleblog.list</interface-id>
       <applied-interface-style-id>402881DE7AE3E757017AE3F950DA0404</applied-interface-style-id>
       <custom-properties>
         <custom-property name="blogpost.doui_fields">&lt;fields&gt;&lt;field id=&quot;id&quot; display=&quot;false&quot; /&gt;&lt;field id=&quot;contentId&quot; display=&quot;false&quot; /&gt;&lt;field id=&quot;serviceInstanceId&quot; display=&quot;false&quot; /&gt;&lt;field id=&quot;language&quot; display=&quot;false&quot; /&gt;&lt;field id=&quot;versionActive&quot; display=&quot;false&quot; /&gt;&lt;field id=&quot;versionNumber&quot; display=&quot;false&quot; /&gt;&lt;field id=&quot;versionContentId&quot; display=&quot;false&quot; /&gt;&lt;field id=&quot;lumLockType&quot; display=&quot;false&quot; /&gt;&lt;field id=&quot;tags&quot; display=&quot;true&quot; /&gt;&lt;field id=&quot;title&quot; display=&quot;true&quot; /&gt;&lt;field id=&quot;publishStartDate&quot; display=&quot;true&quot; /&gt;&lt;field id=&quot;introductionImage&quot; display=&quot;true&quot; /&gt;&lt;field id=&quot;introduction&quot; display=&quot;true&quot; /&gt;&lt;/fields&gt;</custom-property>
         <custom-property name="blogpost.doui_maxRows">2</custom-property>
+        <custom-property name="blogpost.doui_orderBy">&lt;orderBy&gt;&lt;field id=&quot;publishStartDate&quot; direction=&quot;descending&quot; /&gt;&lt;/orderBy&gt;</custom-property>
       </custom-properties>
     </interface-instance>
   </interface-instances>

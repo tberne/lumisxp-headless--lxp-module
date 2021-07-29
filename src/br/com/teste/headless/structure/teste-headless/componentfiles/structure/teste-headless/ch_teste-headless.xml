@@ -6,6 +6,7 @@
   <inherit-page-template>false</inherit-page-template>
   <inherit-stylesheet>false</inherit-stylesheet>
   <local-group-prefix>teste-headless</local-group-prefix>
+  <cache-pages>ENABLED</cache-pages>
   <access-control-list>
     <entries>
       <entry principal-id="00000000C00000000000000000000001">
@@ -20,6 +21,31 @@
     <property name="lumis.portal.areatag">
       <private>true</private>
       <default-values/>
+    </property>
+    <property name="lumis.portal.url.autoGenerateWebResource">
+      <default-values>
+        <value>true</value>
+      </default-values>
+    </property>
+    <property name="lumis.portal.url.extension.html">
+      <default-values>
+        <value>json</value>
+      </default-values>
+    </property>
+    <property name="lumis.portal.url.forceFirstPageLinkToChannelLink">
+      <default-values>
+        <value>false</value>
+      </default-values>
+    </property>
+    <property name="lumis.portal.url.pathProcessing.referencetype">
+      <default-values>
+        <value>ROOT</value>
+      </default-values>
+    </property>
+    <property name="lumis.portal.url.pathProcessing.type">
+      <default-values>
+        <value>NONE</value>
+      </default-values>
     </property>
   </property-bag>
   <themes>
